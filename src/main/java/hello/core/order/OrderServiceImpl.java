@@ -28,4 +28,9 @@ public class OrderServiceImpl implements OrderService{
         //할인과 멤버가 별개로 적용되어있어서 할인에 대한것은 오직 discountpolicy에서, 단일체계원칙이 잘 적용된 것이다.
         return new Order(memberId,itemName,itemPrice,discountPrice);
     }
+
+    //테스트 용도
+    public MemberRepository getMemberRepository(){
+        return memberRepository;
+    }
 }
