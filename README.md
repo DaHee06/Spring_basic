@@ -5,6 +5,6 @@
 4.[스프링 컨테이너와 스프링 빈](https://hee-story6.tistory.com/114)  
 5.[싱글톤 컨테이너](https://hee-story6.tistory.com/115)  
 6.[컴포넌트 스캔](https://hee-story6.tistory.com/117)  
-7.[의존관계 자동 주입]  
+7.[의존관계 자동 주입](https://hee-story6.tistory.com/118)  
 8.[빈 생명주기 콜백]  
 9.[빈 스코프]  
