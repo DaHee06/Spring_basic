@@ -15,11 +15,29 @@ public class OrderServiceImpl implements OrderService{
     private final MemberRepository memberRepository ;
     private final DiscountPolicy discountPolicy;
 
-    @Autowired
+    //생성자에 final 제외하면 setter 사용 가능
+//    @Autowired
+//    public void setMemberRepository(MemberRepository memberRepository) {
+//        System.out.println("memberRepository = "+memberRepository);
+//        this.memberRepository = memberRepository;
+//    }
+//
+//    @Autowired
+//    public void setDiscountPolicy(DiscountPolicy discountPolicy) {
+//        System.out.println("discountPolicy = " + discountPolicy);
+//        this.discountPolicy = discountPolicy;
+//    }
+
+    //생성자 주입
+    @Autowired //생략해도 생성자가 딱 1개만 있는 경우는 자동으로 주입
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
+//        System.out.println("memberRepository = "+ memberRepository);
+//        System.out.println("discountPolicy = "+ discountPolicy);
         this.memberRepository = memberRepository;
         this.discountPolicy = discountPolicy;
     }
+
+
 
     //    private final DiscountPolicy discountPolicy = new FixDiscountPolicy();
 //    private final DiscountPolicy discountPolicy = new RateDiscountPolicy();
