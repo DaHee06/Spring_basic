@@ -7,4 +7,4 @@
 6.[컴포넌트 스캔](https://hee-story6.tistory.com/117)  
 7.[의존관계 자동 주입](https://hee-story6.tistory.com/118)  
 8.[빈 생명주기 콜백](https://hee-story6.tistory.com/121)  
-9.[빈 스코프]https://hee-story6.tistory.com/125  
+9.[빈 스코프](https://hee-story6.tistory.com/125)  
